@@ -3,6 +3,7 @@
 *::before{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 ::-webkit-scrollbar{
@@ -12,6 +13,7 @@
 body{
     background-image: linear-gradient(to bottom, #2c72fb, #2471ef, #206fe2, #206dd5, #236bc8);
     color: #fff;
+    height: 100vh;
 }
 
 /* navbar */
